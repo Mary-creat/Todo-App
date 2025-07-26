@@ -38,7 +38,7 @@ app.post('/register', (req, res) => {
         password: req.body.password
     })
     .then(user => {
-        console.log("Successfully Created user!", user);
+        console.log("Hurray you are doing greatgit!", user);
         res.redirect('/dashboard');
     })
     .catch(err => {

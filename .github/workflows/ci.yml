@@ -3,7 +3,7 @@ name: continuous-integration pipeline for nodejs App
 on:
   push:
     branches:
-      - master
+      - dev
 
 jobs:
   build:
